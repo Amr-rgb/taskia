@@ -16,7 +16,7 @@
     }
 
     input[type='text'] {
-        @apply border-2 border-lightGrey opacity-[.36] font-mont font-light text-xs text-center p-4 rounded-[29px] md:text-lg md:text-left md:p-7 md:rounded-[39px]
+        @apply border-2 border-lightGrey opacity-[.36] text-darkGrey placeholder:text-darkGrey font-mont font-light text-xs text-center p-4 rounded-[29px] md:text-lg md:text-left md:p-7 md:rounded-[39px]
     }
 }
 
