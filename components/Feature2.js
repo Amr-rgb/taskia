@@ -5,7 +5,7 @@ function Feature2() {
     return (
         <div className="flex flex-col items-center gap-8">
             <div className="image">
-                <Image src='/graphs.png' width={726} height={454} />
+                <Image src='/graphs.png' width={717} height={547} />
             </div>
 
             <div className="flex flex-col items-center gap-4 text-center">
