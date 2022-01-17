@@ -41,3 +41,9 @@
         @apply text-grey font-muli font-bold text-xs md:text-base
     }
 }
+
+@layer components {
+    body {
+        @apply bg-[url('/bg.png')] bg-contain
+    }
+}
