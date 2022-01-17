@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-black font-poppins font-black text-3xl md:text-6xl 2xl:text-7xl
+    }
+
+    h2 {
+        @apply text-black font-poppins font-bold text-lg md:text-4xl 2xl:text-5xl
+    }
+
+    h3 {
+        @apply text-black font-poppins font-extrabold text-lg leading-[27px] md:text-xl 2xl:text-2xl
+    }
+
+    input[type='text'] {
+        @apply border-2 border-lightGrey opacity-[.36] font-mont font-light text-xs text-center p-4 rounded-[29px] md:text-lg md:text-left md:p-7 md:rounded-[39px]
+    }
+}
+
+@layer utilities {
+    .container {
+        @apply px-8 mx-auto md:max-w-small lg:max-w-large xl:max-w-xlarge 2xl:max-w-2xlarge
+    }
+
+    .cta-btn {
+        @apply inline-block font-muli font-bold text-xs text-blue py-[10px] px-6 border-2 border-blue rounded-[19px] md:text-lg md:py-4 md:px-[34px] md:rounded-[29px]
+    }
+
+    .btn {
+        @apply inline-block font-semibold font-poppins text-sm text-white bg-blue py-[14px] px-11 rounded-[29px] md:text-[23px] md:py-6 md:px-14 md:rounded-[39px]
+    }
+
+    .subhead {
+        @apply text-grey font-muli font-bold text-sm md:text-base 2xl:text-lg
+    }
+
+    .text {
+        @apply text-grey font-muli font-bold text-xs md:text-base
+    }
+}
