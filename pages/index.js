@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Features from '../components/Features'
 import Feedback from '../components/Feedback'
 import Footer from '../components/Footer'
+import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
 
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <Header />
         <Hero />
         <Services />
         <Features />
