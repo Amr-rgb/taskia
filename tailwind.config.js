@@ -18,7 +18,7 @@ module.exports = {
       xs: ['.875rem', '23px'],
       sm: ['1rem', '26px'],
       base: ['1.125rem', '30px'],
-      lg: ['1.25rem'],
+      lg: ['1.25rem', '24px'],
       xl: ['1.375rem', '29px'],
       '2xl': ['1.875rem', '40px'],
       '3xl': ['2rem', '44px'],
@@ -27,7 +27,19 @@ module.exports = {
       '6xl': ['3.3125rem', '73px'],
       '7xl': ['4.375rem', '97px'],
     },
-    extend: {},
+    fontFamily: {
+      'poppins': ['Poppins', 'sans-serif'],
+      'muli': ['Muli', 'sans-serif'],
+      'mont': ['Montserrat', 'sans-serif'],
+    },
+    extend: {
+      maxWidth: {
+        small: '750px',
+        large: '970px',
+        xlarge: '1180px',
+        '2xlarge': '1480px'
+      },
+    },
   },
   plugins: [],
 }
