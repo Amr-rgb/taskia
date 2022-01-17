@@ -26,7 +26,7 @@
     }
 
     .cta-btn {
-        @apply inline-block font-muli font-bold text-xs text-blue py-[10px] px-6 border-2 border-blue rounded-[19px] md:text-lg md:py-4 md:px-[34px] md:rounded-[29px]
+        @apply inline-block font-muli font-bold text-xs text-blue py-[10px] px-6 border-2 border-blue rounded-[29px] md:text-lg md:py-4 md:px-[34px]
     }
 
     .btn {
