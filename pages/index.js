@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Hero from '../components/Hero'
+import Services from '../components/Services'
 
 export default function Home() {
   return (
@@ -11,6 +13,11 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish:wght@700&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet" /> 
       </Head>
+
+      <main>
+        <Hero />
+        <Services />
+      </main>
 
     </div>
   )
