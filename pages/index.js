@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Features from '../components/Features'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
 
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
+        <Features />
       </main>
 
     </div>
